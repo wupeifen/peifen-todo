@@ -5,9 +5,14 @@ class Todo extends Component {
         return (
             <div>
                 <h1>Todo</h1>
-                <p>
-
-                </p>
+                <div className="todo">
+                <div className="header">
+                <form>
+                    <input placeholder="Todo Item"></input>
+                    <button type="submit">Add</button>
+                </form>
+                </div>
+                </div>
             </div>
         );
     }

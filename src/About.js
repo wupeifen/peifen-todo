@@ -4,11 +4,12 @@ class About extends Component {
     render() {
         return (
             <div>
-                <h1>About</h1>
-                <p>
-                About Me
-                </p>
+            <h1>About</h1>
+            <p>
+            Hello. Welcome to my todo React App
             
+            </p>
+
             </div>
         );
     }
