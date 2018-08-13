@@ -15,9 +15,8 @@ class Main extends Component {
         return (
             <HashRouter>
             <div>
-            <h1>Pei Fen Todo React App</h1>
             <ul className="header">
-                <li><NavLink to ="/">Home</NavLink></li>
+                <li><NavLink exact to ="/">Home</NavLink></li>
                 <li><NavLink to ="/aboutus">About</NavLink></li>
                 <li><NavLink to="/todo">To Do</NavLink></li>
             </ul>

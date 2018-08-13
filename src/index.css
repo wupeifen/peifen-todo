@@ -2,4 +2,37 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header {
+  background-color: black;
+}
+
+ul.header li a {
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+.active {
+  background-color:#bf9b30;
+}
+
+.content {
+  background: #ffffff;
+  padding: 50px;
+}
+
+.content h1 {
+  padding: 0;
+  margin: 0;
 }
